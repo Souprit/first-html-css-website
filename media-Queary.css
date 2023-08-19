@@ -1,0 +1,68 @@
+@media screen and (max-width: 991px) {
+    h3 {
+        font-size: 1.2rem;
+    }
+    .icon {
+        display: block;
+        margin-right: 20px;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+
+    .examples-card {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .example-area {
+        gap: 20px;
+        margin-block: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sec-button {
+        width: 100%;
+        text-align: center;
+    }
+    .header-sec {
+        flex-direction: column-reverse;
+    }
+
+    .left-div {
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    .header-content {
+        padding: 0px 10px;
+    }
+
+    .list {
+        min-width: calc(50% - 10px);
+    }
+
+    .feature-one {
+        gap: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .links {
+        align-items: stretch;
+        text-align: center;
+    }
+
+    .sub-footer-content {
+        flex-wrap: wrap;
+    }
+
+
+}
